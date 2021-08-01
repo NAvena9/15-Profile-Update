@@ -1,0 +1,215 @@
+html{
+    height:100%
+}
+
+body{
+    height: 100vh;
+    background: url(images/blue.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.sample-change{
+    color: white;
+}
+
+.number{
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.phone{
+    font-size: 35px;
+}
+
+.header{
+    margin-top: 17rem;
+    
+}
+
+.modal-icons{
+    font-size: 40px;
+    margin-right: 1rem;
+    transition: .2s ease-in;
+    color: #23272B;
+}
+
+.send-btn{
+    background-color: #23272B;
+    color: white;
+    transition: .2s ease-in;
+}
+
+.send-btn:hover{
+    transform: scale(1.1);
+    color: white !important;
+}
+
+.modal-icons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+    color: #212529;
+}
+
+.nav-contact{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.port-btn{
+    margin: 5px;
+}
+
+.hide{
+    display: none;
+} 
+
+
+.img-col{
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+.divide{
+    
+    border-right: 6px double #212429;
+    
+}
+
+.divide-left{
+    border-left: 6px double #212429;
+}
+
+.info{
+    padding-top: 8px;
+}
+
+.about-img{
+    width: 140px;
+    height: 180px;
+    border-radius: 10px;
+    border-width: 10px black;
+}
+
+.dev-icon{
+    font-size: 28px;
+}
+
+.article{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+p{
+    margin-bottom: 0;
+}
+
+
+.card-style{
+    margin-top: 15px;
+    transition: .2s ease-in-out;
+    /* text-align: center; */
+}
+
+
+.card-style:hover{
+    transform:scale(1.1);
+} 
+
+.html{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.left-icon{
+    padding-left: 10px
+}
+
+.right-icon{
+    padding-right: 10px;
+}
+
+.contact-page{
+    display: none;
+    margin-top: 10rem;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portfolio, .about, .contact, .home, .docs{
+    transition: .2s ease-in;
+    margin: 5px;
+    background-color: #212429 !important; 
+}
+
+.home-light, .about-light, .contact-light{
+    transition: .2s ease-in;
+    margin: 5px;
+    background-color: whitesmoke !important;
+}
+
+ .portfolio:hover,
+ .about:hover,
+ .contact:hover,
+ .home:hover,
+ .home-light:hover,
+ .about-light:hover,
+ .contact-light:hover,
+ .docs:hover{
+    transform: scale(1.1);
+}
+
+/* .card-image-top{
+    display: flex;
+    align-items: stretch;
+} */
+
+
+@media only screen and (min-width:576px) and  (max-width: 768px){
+    .card-title{
+        font-size: .95rem;
+    }
+
+    .card-text{
+        font-size: .4rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 400px ){
+    .about-page{
+        background-color: rgba(255, 255, 255, 0.8);	
+        
+    }
+
+    .header{
+        margin-top: 11rem;
+    }
+
+    .divide, .divide-left{
+        border:none;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 992px){
+    .html{
+        font-size: 2rem;
+    }
+
+    
+}
+
