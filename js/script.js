@@ -47,7 +47,7 @@ $(document).ready(function () {
             "<div class='row'>" +
             "<div class='col-sm-4 card-style  d-flex align-items-stretch' id='item1'>" +
             "<div class='card'>" +
-            "<img src='images/timed-quiz.png' class='card-img-top' alt='picture of timed quiz application'>" +
+            "<img src='images/quiz.png' class='card-img-top' alt='picture of timed quiz application'>" +
             "<div class='card-body text-center'>" +
             "<h5 class='card-title'>JS Timed-Quiz</h5>" +
             "<a target='_blank' href='https://github.com/NAvena9/04-APIs-Timed-Quiz' class='btn btn-info port-btn'>Repo</a>" +
@@ -57,7 +57,7 @@ $(document).ready(function () {
             "</div>" +
             "<div class='col-sm-4 card-style d-flex align-items-stretch' id='item2'>" +
             "<div class='card'>" +
-            "<img src='images/scheduler.png' class='card-img-top' alt='picture of the scheduler app'>" +
+            "<img src='images/schedule.png' class='card-img-top' alt='picture of the scheduler app'>" +
             "<div class='card-body text-center'>" +
             "<h5 class='card-title'>Scheduler App</h5>" +
             "<a target='_blank' href='https://github.com/NAvena9/05-Work-Day-Scheduler' class='btn btn-info port-btn'>Repo</a>" +
@@ -67,7 +67,7 @@ $(document).ready(function () {
             "</div>" +
             "<div class='col-sm-4 card-style d-flex align-items-stretch' id='item1'>" +
             "<div class='card'>" +
-            "<img src='images/Project1.png' class='card-img-top center' alt='picture of pitch MyBookCloud'>" +
+            "<img src='images/project.png' class='card-img-top center' alt='picture of pitch MyBookCloud'>" +
             "<div class='card-body text-center'>" +
             "<h5 class='card-title'>MyBookCloud</h5>" +
             "<a target='_blank' href='https://github.com/NAvena9/project1' class='btn btn-info port-btn'>Repo</a>" +
@@ -99,7 +99,7 @@ $(document).ready(function () {
             "</div>" +
             "<div class='col-sm-4 card-style d-flex align-items-stretch' id='item3'>" +
             "<div class='card'>" +
-            "<img src='images/schoolsystem.png' class='card-img-top' alt='picture of School System Portal'>" +
+            "<img src='images/school.png' class='card-img-top' alt='picture of School System Portal'>" +
             "<div class='card-body text-center'>" +
             "<h5 class='card-title'>School System Portal</h5>" +
             "<a target='_blank' href='https://github.com/izaack89/school-system' class='btn btn-info port-btn'>Repo</a>" +
