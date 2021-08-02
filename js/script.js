@@ -130,14 +130,6 @@ $(document).ready(function () {
         populateMain();
     })
 
-    $(".nav-doc").on("click", function () {
-        $(".about-page").hide();
-        $(".header").hide();
-        $(".portfolio-page").hide();
-        // populateDocumentation();
-    })
-
-
 
     $(document).on("click", ".about", function () {
         $(".navbar").removeClass("hide").hide().fadeIn(1000);
@@ -148,12 +140,6 @@ $(document).ready(function () {
         $(".navbar").removeClass("hide").hide().fadeIn(1000);
         populatePortfolio();
     })
-
-    // $(document).on("click", ".docs", function () {
-    //     $(".navbar").removeClass("hide").hide().fadeIn(1000);
-    //     populateDocumentation();
-    // })
-
 
 
 });
