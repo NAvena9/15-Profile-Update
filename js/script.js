@@ -108,10 +108,7 @@ $(document).ready(function () {
             "</div>" +
             "</div>" +
             "</div>"
-
-
         ).fadeIn(400);
-
     }
 
 
